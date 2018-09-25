@@ -1,0 +1,36 @@
+#canvas {
+    position: relative;
+    width: 1600px;
+    height: 700px;
+    border: 2px dashed black;
+    background:url("https://pre00.deviantart.net/5112/th/pre/i/2013/286/7/6/angry_birds___poached_eggs_theme_i_background_by_angrybirdsstuff-d6qa909.png");
+
+    z-index:1;
+}
+
+.object {
+    position: absolute;
+    z-index:2;
+    background-color: black;
+}
+
+#button{
+
+    background-color: #4CAF50;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    color: white;
+}
+
+
+#button2{
+
+    background-color: #4CAF50;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    color: white;
+}
